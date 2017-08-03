@@ -5,7 +5,7 @@ Tested on ethermine.org
 
 Installation:
 1) Install a recent python version
-2) Install pydivert: <pip install pydivert>
+2) Install pydivert: "pip install pydivert"
 4) Edit the file and enter your ETH address where noted
 3) Run file as admin (needed for network stack access) alongside claymore miner
 
