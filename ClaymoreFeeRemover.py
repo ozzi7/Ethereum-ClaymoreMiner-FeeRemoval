@@ -27,7 +27,6 @@ addresses_to_redirect = [re.compile(re.escape(x.lower()), re.IGNORECASE) for x i
   '0x713ad5bd4eedc0de22fbd6a4287fe4111d81439a',
   '0x39c6e46623e7a57cf1daac1cc2ba56f26a8d32fd'
 ]]
-import pydivert
 
 with pydivert.WinDivert("tcp.DstPort == 4444" or "tcp.DstPort == 20550" or "tcp.DstPort == 9999" or "tcp.DstPort == 33333") as w:
     for packet in w:
