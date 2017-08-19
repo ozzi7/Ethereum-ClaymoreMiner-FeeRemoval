@@ -42,4 +42,3 @@ with pydivert.WinDivert("tcp.DstPort == 4444" or "tcp.DstPort == 20550" or "tcp.
         logfile.flush()
         
         w.send(packet,True)
-        
