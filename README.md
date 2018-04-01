@@ -11,4 +11,4 @@ Installation:
 
 Donations: ETH: 0x2d90B415a38E2e19cdd02ff3aD81a97af7cBf672 
 
-Note: This works on v.9.7, but possible not in later versions.
+Note: This works on v.9.7, but possibly not in later versions.
