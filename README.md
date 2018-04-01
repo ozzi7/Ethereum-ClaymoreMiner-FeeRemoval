@@ -10,3 +10,5 @@ Installation:
 3) Run file as admin (needed for network stack access) alongside claymore miner
 
 Donations: ETH: 0x2d90B415a38E2e19cdd02ff3aD81a97af7cBf672 
+
+Note: This works on v.9.7, but possible not in later versions.
